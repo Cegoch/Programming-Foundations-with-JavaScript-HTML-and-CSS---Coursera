@@ -1,0 +1,157 @@
+/* Estilos para la página de intereses de César Gonzalo */
+
+/* Estilos generales */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+a {
+  color: #4E31AA;
+  text-decoration: none;
+}
+
+/* Estilos para el encabezado */
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  color: #3A1078;
+  font-size: 36px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  color: #2F58CD;
+  font-size: 18px;
+  margin: 0;
+}
+
+/* Estilos para las secciones */
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section-title {
+  color: #3795BD;
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list-item {
+  margin-bottom: 10px;
+}
+
+/* Estilos para la tabla */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #4E31AA;
+}
+
+th {
+  background-color: #4E31AA;
+  color: #ffffff;
+}
+
+/* Estilos para los enlaces */
+
+a:hover {
+  color: #2F58CD;
+}
+
+/* Estilos para los elementos de lista */
+
+.list-item:before {
+  content: "•";
+  margin-right: 10px;
+  color: #2F58CD;
+}
+
+.list-item:hover {
+  background-color: #F9DBBB;
+}
+
+/* Estilos para el footer */
+
+footer {
+  text-align: center;
+}
+
+/* Estilos para las filas pares de la tabla */
+
+tr:nth-child(even) {
+  background-color: #F9DBBB;
+}
+
+/* Estilos para el texto de la tabla */
+
+td {
+  color: #2E3840;
+}
+
+/* Estilos para la sección de Top 3 Películas */
+
+.section:nth-child(odd) {
+  background-color: #4E31AA;
+  color: #ffffff;
+}
+
+/* Estilos para la sección de Top 3 Artistas o agrupaciones musicales */
+
+.section:nth-child(even) {
+  background-color: #2F58CD;
+  color: #ffffff;
+}
+
+/* Estilos para la sección de Top 3 Lugares que visité */
+
+.section:nth-child(3n) {
+  background-color: #3795BD;
+  color: #ffffff;
+}
+
+/* Estilos para el número de cada elemento de lista */
+
+.list-item:before {
+  color: #3A1078;
+  font-weight: bold;
+  font-size: 24px;
+  vertical-align: middle;
+}
+
+/* Estilos para el texto del footer */
+
+tfoot td {
+  font-style: italic;
+  font-size: 14px;
+}
